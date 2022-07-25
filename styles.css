@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: bisque;
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0 2rem;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  width: min(100%, 40rem);
+  margin: 3rem auto;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+span {
+  font-weight: 700;
+}
+
+form {
+  text-align: center;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  line-height: 3;
+}
+
+select {
+  font-size: 1.2rem;
+  background-color: white;
+  border: black solid 2px;
+  padding: 0.25rem;
+}
+
+.horoscopo {
+  background-color: white;
+  border: black solid 3px;
+  padding: 2rem;
+  margin-top: 2rem;
+  /* width: 100%; */
+}
